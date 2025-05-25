@@ -30,7 +30,7 @@ h1, h2, h3, h4 {
 /* Enlaces */
 a {
   color: #005500;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bold;
 }
 a:hover {
