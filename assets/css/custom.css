@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Special+Elite&display=swap');
+
+/* Estilo general del blog */
+body {
+  background-color: #fdf6e3;
+  color: #3b2e2a;
+  font-family: 'Special Elite', monospace;
+  padding: 2rem;
+  line-height: 1.7;
+}
+
+/* Contenedor del contenido */
+.container, .post, .content, main {
+  background-color: #fffaf0;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(120, 100, 90, 0.2);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Títulos */
+h1, h2, h3, h4 {
+  font-family: 'Lobster', cursive;
+  color: #d94f4f;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Enlaces */
+a {
+  color: #70c1b3;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: #d94f4f;
+  text-decoration: underline;
+}
+
+/* Código y bloques preformateados */
+code, pre {
+  background-color: #eee5d5;
+  border-radius: 5px;
+  padding: 0.3rem 0.5rem;
+  font-family: 'Courier New', monospace;
+}
+
+/* Botones, si los usas */
+button {
+  background-color: #d94f4f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-family: 'Lobster', cursive;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #b93d3d;
+}
