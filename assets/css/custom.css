@@ -29,7 +29,7 @@ h1, h2, h3, h4 {
 
 /* Enlaces */
 a {
-  color: #000800;
+  color: #005500;
   text-decoration: none;
   font-weight: bold;
 }
@@ -58,14 +58,6 @@ button {
 }
 button:hover {
   background-color: #b93d3d;
-}
-
-header {
-  background-color: #ffe8e0;
-  border: 4px double #d94f4f;
-  padding: 1rem;
-  box-shadow: 0 0 20px rgba(217, 79, 79, 0.4);
-  text-align: center;
 }
 
 .post-header {
