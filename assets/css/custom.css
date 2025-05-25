@@ -68,3 +68,16 @@ header {
   text-align: center;
 }
 
+header .post-header {
+  background-color: #00500;
+  border: 4px double #d94f4f;
+  padding: 1rem;
+  box-shadow: 0 0 20px rgba(217, 79, 79, 0.4);
+  text-align: center;
+}
+
+header {  
+  padding: 1rem;
+  text-align: center;
+}
+
