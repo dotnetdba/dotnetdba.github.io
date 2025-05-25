@@ -68,7 +68,7 @@ header {
   text-align: center;
 }
 
-header .post-header {
+.post-header {
   background-color: #00500;
   border: 4px double #d94f4f;
   padding: 1rem;
@@ -76,7 +76,7 @@ header .post-header {
   text-align: center;
 }
 
-header {  
+.diner {  
   padding: 1rem;
   text-align: center;
 }
