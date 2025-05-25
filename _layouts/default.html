@@ -7,13 +7,14 @@
   {% include head.html %}
 </head>
 <body>
-  <header class="diner">
+  <header class="diner" style="width: 100%; overflow: hidden; margin-bottom: 2rem;">
     <img 
       src="{{ '/assets/images/diner.png' | relative_url }}"  
       alt="DotNet DBA - Blog"
-      style="max-width: 500px; width: 100%; height: auto; border-radius: 8px;"
+      style="width: 100%; height: 180px; object-fit: cover; display: block;"
     >
   </header>
+
 
   <nav style="padding: 1rem; background-color: #f0e6d2; font-family: 'Special Elite', monospace;">
     <a href="{{ '/' | relative_url }}" style="color: #d94f4f; font-weight: bold; text-decoration: none;">← Volver a la portada</a>
