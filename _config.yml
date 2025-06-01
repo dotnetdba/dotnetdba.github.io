@@ -1,6 +1,6 @@
 title: Mi Blog Técnico
 description: Blog sobre desarrollo .NET, SQL Server y administración de bases de datos.
-theme: minima
+# theme: minima
 markdown: kramdown
 sass:
   style: compressed
