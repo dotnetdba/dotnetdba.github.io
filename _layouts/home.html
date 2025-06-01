@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ site.title }}</title>
+  {% include head.html %}
+  <style>
+    body {
+      font-family: 'Special Elite', monospace;
+      background-color: #fefbf6;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f0e6d2;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #d94f4f;
+    }
+
+    .post-list {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .post-item {
+      margin-bottom: 2rem;
+      border-bottom: 1px dashed #ccc;
+      padding-bottom: 1rem;
+    }
+
+    .post-item h2 {
+      margin: 0 0 0.5rem;
+      font-size: 1.4rem;
+    }
+
+    .post-item h2 a {
+      color: #d94f4f;
+      text-decoration: none;
+    }
+
+    .post-date {
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: 0.5rem;
+    }
+
+    .post-excerpt {
+      font-size: 1rem;
+    }
+
+    footer {
+      margin-top: 4rem;
+    }
+
+    .diner img {
+      width: 100%;
+      height: 50%;
+      object-fit: cover;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mi Blog Técnico sobre SQL & .NET</h1>
+    <p style="margin-top: 0.5rem; font-style: italic;">Tutoriales, ideas y tips desde el mundo .NET y bases de datos</p>
+  </header>
+
+  <main class="post-list">
+    {% for post in site.posts %}
+      <article class="post-item">
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <div class="post-date">{{ post.date | date: "%d %B %Y" }}</div>
+        <div class="post-excerpt">
+          {{ post.excerpt }}
+        </div>
+      </article>
+    {% endfor %}
+  </main>
+
+  <footer class="diner">
+    <img 
+      src="{{ '/assets/images/diner.png' | relative_url }}"  
+      alt="DotNet DBA - Blog"
+    >
+  </footer>
+</body>
+</html>
