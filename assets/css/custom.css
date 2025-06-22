@@ -1,87 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Roboto:wght@400;500&display=swap');
 
-/* Estilo general */
+/* Estructura general */
 body {
-  background-color: #000;
-  color: #ffffff;
-  font-family: 'Share Tech Mono', monospace;
-  padding: 2rem;
-  line-height: 1.8;
-  background-image: radial-gradient(circle at top, #111 0%, #000 100%);
-  background-attachment: fixed;
+  background-color: #f5f6f8; /* gris claro */
+  color: #333; 
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
 
-/* Contenedor */
+header, footer, nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 1rem;
+}
+
+/* Contenido central */
 .container, .post, .content, main {
-  background-color: rgba(0, 0, 0, 0.8);
-  border: 2px solid #ffffff;
-  border-radius: 8px;
+  background-color: #ffffff;
+  border-radius: 6px;
   padding: 2rem;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
-  max-width: 800px;
   margin: 2rem auto;
+  max-width: 900px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
 }
 
-/* Títulos con glow blanco */
+/* Títulos limpianos y estructurados */
 h1, h2, h3, h4 {
-  font-family: 'Share Tech Mono', monospace;
-  color: #ffffff;
-  text-shadow: 0 0 10px #ffffff, 0 0 20px #cccccc;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: #111;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.3rem;
 }
 
-/* Enlaces */
+/* Enlaces sutiles */
 a {
-  color: #7df9ff;
+  color: #0073e6;
   text-decoration: none;
-  font-weight: bold;
 }
 a:hover {
-  color: #ffffff;
-  text-shadow: 0 0 5px #7df9ff;
+  text-decoration: underline;
 }
 
-/* Código y bloques */
+/* Códigos y bloques preformateados */
 code, pre {
-  background-color: #1a1a1a;
-  border: 1px solid #333;
-  border-left: 3px solid #ffffff;
-  color: #c2fffc;
+  background-color: #f0f0f0;
+  border-left: 4px solid #0073e6;
   padding: 0.5rem;
   border-radius: 4px;
-  font-family: 'Courier New', monospace;
+  font-family: 'Share Tech Mono', monospace;
+  overflow-x: auto;
 }
 
-/* Botones blancos estilo imperial */
+/* Botones rectilíneos estilo corporativo */
 button {
-  background-color: #111;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
   border-radius: 4px;
-  padding: 0.5rem 1rem;
-  font-family: 'Share Tech Mono', monospace;
+  padding: 0.6rem 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   cursor: pointer;
-  box-shadow: 0 0 5px #ffffff;
+  transition: background-color 0.3s ease;
 }
 button:hover {
-  background-color: #ffffff;
-  color: #000;
-  box-shadow: 0 0 10px #ffffff;
+  background-color: #005bb5;
 }
 
-/* Encabezado de post */
+/* Encabezado del post */
 .post-header {
-  background-color: #000;
-  border-bottom: 4px solid #ffffff;
+  background-color: #fafafa;
+  border-bottom: 2px solid #e0e0e0;
+  padding: 1rem 0;
   text-align: center;
-  padding: 1rem;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
 }
 
-/* Footer o clases decorativas */
+/* Pie de página discreto */
 .diner {
   text-align: center;
-  color: #cccccc;
+  color: #666;
   font-size: 0.9rem;
+  padding: 1rem 0;
 }
