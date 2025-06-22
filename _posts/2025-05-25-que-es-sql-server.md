@@ -4,7 +4,7 @@ title: "¿Qué es SQL Server y por qué deberías aprenderlo como desarrollador?
 date: 2025-05-25
 categories: [sqlserver, fundamentos]
 tags: [SQL Server, base de datos, Microsoft, DBA]
-author: JuanD
+author: Juan De Dios
 ---
 
 # ¿Qué es SQL Server y por qué deberías aprenderlo como desarrollador?
