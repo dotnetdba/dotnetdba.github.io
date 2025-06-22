@@ -2,8 +2,8 @@
 
 /* Estilo general del blog */
 body {
-  background-color: #fdf6e3;
-  color: #3b2e2a;
+  background-color: #000;
+  color: #e0e0e0;
   font-family: 'Special Elite', monospace;
   padding: 2rem;
   line-height: 1.7;
@@ -11,10 +11,10 @@ body {
 
 /* Contenedor del contenido */
 .container, .post, .content, main {
-  background-color: #fffaf0;
+  background-color: #111;
   border-radius: 12px;
   padding: 2rem;
-  box-shadow: 0 0 10px rgba(120, 100, 90, 0.2);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
   max-width: 800px;
   margin: 0 auto;
 }
@@ -22,34 +22,36 @@ body {
 /* Títulos */
 h1, h2, h3, h4 {
   font-family: 'Lobster', cursive;
-  color: #d94f4f;
+  color: #ffffff;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
 /* Enlaces */
 a {
-  color: #005500;
+  color: #bbbbbb;
   text-decoration: underline;
   font-weight: bold;
 }
 a:hover {
-  color: #d94f4f;
+  color: #ffffff;
   text-decoration: underline;
 }
 
 /* Código y bloques preformateados */
 code, pre {
-  background-color: #eee5d5;
+  background-color: #1a1a1a;
   border-radius: 5px;
   padding: 0.3rem 0.5rem;
   font-family: 'Courier New', monospace;
+  color: #e0e0e0;
+  border: 1px solid #333;
 }
 
-/* Botones, si los usas */
+/* Botones */
 button {
-  background-color: #d94f4f;
-  color: white;
+  background-color: #333;
+  color: #eee;
   border: none;
   border-radius: 8px;
   padding: 0.5rem 1rem;
@@ -57,19 +59,21 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background-color: #b93d3d;
+  background-color: #555;
 }
 
+/* Encabezado de post */
 .post-header {
-  background-color: #00500;
-  border: 4px double #d94f4f;
+  background-color: #111;
+  border: 4px double #444;
   padding: 1rem;
-  box-shadow: 0 0 20px rgba(217, 79, 79, 0.4);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
   text-align: center;
 }
 
-.diner {  
+/* Clase personalizada .diner */
+.diner {
   padding: 1rem;
   text-align: center;
+  color: #aaa;
 }
-
