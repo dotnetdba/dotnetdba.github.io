@@ -1,89 +1,141 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Montserrat:wght@600&family=Raleway:ital,wght@1,400&display=swap');
 
-/* Estructura general */
-body {
-  background-color: #f5f6f8; /* gris claro */
-  color: #333; 
-  font-family: 'Roboto', sans-serif;
+/* Reset y base general */
+* {
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  box-sizing: border-box;
 }
 
-header, footer, nav {
-  background-color: #ffffff;
-  border-bottom: 1px solid #e0e0e0;
-  padding: 1rem;
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'League Spartan', sans-serif;
+  line-height: 1.7;
+  font-size: 18px;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
-/* Contenido central */
-.container, .post, .content, main {
-  background-color: #ffffff;
-  border-radius: 6px;
-  padding: 2rem;
-  margin: 2rem auto;
-  max-width: 900px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+header, footer, main {
+  width: 100%;
+  padding: 2rem 4vw;
 }
 
-/* Títulos limpianos y estructurados */
+/* Contenido principal en pantalla completa */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Títulos */
 h1, h2, h3, h4 {
-  font-family: 'Roboto', sans-serif;
-  color: #111;
-  margin-top: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
   margin-bottom: 0.5rem;
-  font-weight: 500;
-  border-bottom: 2px solid #e0e0e0;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #444;
   padding-bottom: 0.3rem;
 }
 
-/* Enlaces sutiles */
-a {
-  color: #0073e6;
-  text-decoration: none;
+h1 {
+  font-size: 3rem;
 }
-a:hover {
-  text-decoration: underline;
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
 }
 
-/* Códigos y bloques preformateados */
+/* Párrafos y texto secundario */
+p {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  color: #ddd;
+  margin-bottom: 1rem;
+}
+
+/* Enlaces */
+a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 600;
+}
+a:hover {
+  color: #999;
+  text-decoration: none;
+}
+
+/* Código */
 code, pre {
-  background-color: #f0f0f0;
-  border-left: 4px solid #0073e6;
-  padding: 0.5rem;
+  background-color: #111;
+  color: #eee;
+  padding: 0.4rem 0.6rem;
   border-radius: 4px;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+  display: block;
   overflow-x: auto;
 }
 
-/* Botones rectilíneos estilo corporativo */
+/* Botones */
 button {
-  background-color: #0073e6;
+  background-color: transparent;
+  border: 2px solid #fff;
   color: #fff;
-  border: none;
-  border-radius: 4px;
-  padding: 0.6rem 1rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
 }
 button:hover {
-  background-color: #005bb5;
+  background-color: #fff;
+  color: #000;
 }
 
-/* Encabezado del post */
-.post-header {
-  background-color: #fafafa;
-  border-bottom: 2px solid #e0e0e0;
-  padding: 1rem 0;
-  text-align: center;
+/* Layout responsive */
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 4vw;
 }
 
-/* Pie de página discreto */
-.diner {
+/* Separadores */
+hr {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 2rem 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #000;
   text-align: center;
-  color: #666;
+  border-bottom: 1px solid #222;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
   font-size: 0.9rem;
-  padding: 1rem 0;
+  color: #666;
+  border-top: 1px solid #222;
+  padding: 2rem 4vw;
+}
+
+/* Imagen responsiva en blanco y negro */
+img {
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(100%) contrast(1.1);
+  border-radius: 8px;
 }
