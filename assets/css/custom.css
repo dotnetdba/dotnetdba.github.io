@@ -3,7 +3,7 @@
 /* Estilo general */
 body {
   background-color: #000;
-  color: #ffe81f; /* amarillo Star Wars */
+  color: #ffffff;
   font-family: 'Share Tech Mono', monospace;
   padding: 2rem;
   line-height: 1.8;
@@ -14,19 +14,19 @@ body {
 /* Contenedor */
 .container, .post, .content, main {
   background-color: rgba(0, 0, 0, 0.8);
-  border: 2px solid #ffe81f;
+  border: 2px solid #ffffff;
   border-radius: 8px;
   padding: 2rem;
-  box-shadow: 0 0 20px rgba(255, 232, 31, 0.3);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
   max-width: 800px;
   margin: 2rem auto;
 }
 
-/* Títulos con glow */
+/* Títulos con glow blanco */
 h1, h2, h3, h4 {
   font-family: 'Share Tech Mono', monospace;
-  color: #ffe81f;
-  text-shadow: 0 0 10px #ffe81f, 0 0 20px #ffea00;
+  color: #ffffff;
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #cccccc;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -46,42 +46,42 @@ a:hover {
 code, pre {
   background-color: #1a1a1a;
   border: 1px solid #333;
-  border-left: 3px solid #ffe81f;
+  border-left: 3px solid #ffffff;
   color: #c2fffc;
   padding: 0.5rem;
   border-radius: 4px;
   font-family: 'Courier New', monospace;
 }
 
-/* Botones al estilo panel imperial */
+/* Botones blancos estilo imperial */
 button {
   background-color: #111;
-  color: #ffe81f;
-  border: 1px solid #ffe81f;
+  color: #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 4px;
   padding: 0.5rem 1rem;
   font-family: 'Share Tech Mono', monospace;
   cursor: pointer;
-  box-shadow: 0 0 5px #ffe81f;
+  box-shadow: 0 0 5px #ffffff;
 }
 button:hover {
-  background-color: #ffe81f;
+  background-color: #ffffff;
   color: #000;
-  box-shadow: 0 0 10px #ffe81f;
+  box-shadow: 0 0 10px #ffffff;
 }
 
 /* Encabezado de post */
 .post-header {
   background-color: #000;
-  border-bottom: 4px solid #ffe81f;
+  border-bottom: 4px solid #ffffff;
   text-align: center;
   padding: 1rem;
-  box-shadow: 0 0 20px rgba(255, 232, 31, 0.4);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
 }
 
 /* Footer o clases decorativas */
 .diner {
   text-align: center;
-  color: #999;
+  color: #cccccc;
   font-size: 0.9rem;
 }
