@@ -179,4 +179,41 @@ body {
   border: 1px solid #fff;
 }
 
+/* Estilos responsivos para móviles */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  .container, .post, .content, main {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  #scrollTopBtn {
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    padding: 0.4rem 0.6rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+}
+
 
