@@ -4,7 +4,7 @@ title: "¿Qué es Blazor y cómo se relaciona con .NET?"
 date: 2025-06-01
 categories: [Blazor, .NET]
 tags: [blazor, dotnet, web, csharp, frontend]
-author: JuanD
+author: Juan De Dios
 ---
 
 ¡Hola! 👋 Hoy quiero hablarte de un tema que cada vez suena más fuerte entre los desarrolladores .NET: **Blazor**. Tal vez ya lo escuchaste nombrar, o incluso viste alguna demo en algún evento de Microsoft, pero no terminás de entender bien qué es o por qué deberías prestarle atención. Bueno, hoy lo aclaramos.
