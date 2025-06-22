@@ -1,2 +1,2 @@
 # dotnetdba.github.io
-Blog personal sobre desarrollo .NET y administración de bases de datos
+Blog personal sobre mis apuntes del mundo .NET y las bases de datos. 
