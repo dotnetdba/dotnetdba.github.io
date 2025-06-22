@@ -4,7 +4,7 @@ title: "Cómo instalar SQL Server y SSMS paso a paso"
 date: 2025-06-01
 categories: [SQLServer, Instalación]
 tags: [sql-server, ssms, tutorial, instalación]
-author: JuanD
+author: Juan De Dios
 ---
 
 ¡Hola, comunidad! 👋 Hoy quiero compartir un tema esencial para cualquiera que esté comenzando en el mundo del desarrollo backend o la administración de bases de datos: **la instalación de SQL Server y SQL Server Management Studio (SSMS)**.
