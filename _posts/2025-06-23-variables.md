@@ -39,13 +39,10 @@ En C# existen muchos tipos de datos, pero los más usados cuando estás empezand
 ## Reglas para nombrar variables
 En C# podés nombrar tus variables como quieras, pero seguí estas buenas prácticas:
 
-Usá nombres descriptivos: nombre, totalCompra, esActivo.
-
-Comenzá con una letra (no con números o símbolos).
-
-Evitá usar nombres reservados del lenguaje como int, class, if, etc.
-
-Se recomienda usar camelCase: la primera palabra en minúscula y las siguientes con mayúscula.
+- Usá nombres descriptivos: nombre, totalCompra, esActivo.
+- Comenzá con una letra (no con números o símbolos).
+- Evitá usar nombres reservados del lenguaje como int, class, if, etc.
+- Se recomienda usar camelCase: la primera palabra en minúscula y las siguientes con mayúscula.
 
 Ejemplo:
 ```csharp
