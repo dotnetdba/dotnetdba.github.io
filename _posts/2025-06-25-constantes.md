@@ -1,5 +1,5 @@
 ---
-layout: defaulpostt
+layout: post
 title: "¿Qué son las constantes en C#?"
 date: 2025-06-23
 author: Juan De Dios
